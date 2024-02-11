@@ -7,6 +7,10 @@ import sys
 import numpy as np
 from datetime import datetime
 
+# Intalaciones necesarias
+# pip install imageio numpy opencv-python boto3
+
+
 # Se define la fecha actual en segundos para guardar el video de forma única y facil de identificar
 current_date = datetime.now().strftime('%Y%m%d_%H%M%S')
 url_VID = credentials.video_URL
