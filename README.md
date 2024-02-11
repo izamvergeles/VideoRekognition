@@ -34,6 +34,6 @@ video_folder = './data/'<br>
 video_URL = './data/vid1.mp4'<br>
 collection_id = ''<br>
 
-**video_folder** define la ruta donde se almacena el video comprimido de forma temporal.
+**video_folder** define la ruta donde se almacena el video comprimido de forma temporal.<br>
 **video_URL** se encarga de definir la ruta en la que se encuentra el video a procesar.
 
