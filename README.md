@@ -14,17 +14,6 @@ Desde index.py se llama a login usando las credenciales y este devuelve los obje
 # credentials.py
 Almacena todos las credenciales de conexión con AWS.
 
-# detectFace.py
-Contiene todas las funciones de forma independiente para el procesado del video una vez se obtenga la respuesta.
-Esta funciones se dividen en 2 bloques principales:
-- Trabajo con los datos del video procesado
-- Uso de procesoso de AWS para identificación de personas, mover archivo de ruta en el bucket, crear colecciones, comenzar con el proceso del vídeo...
-
-# index.py
-Fichero principal del programa encargado de llamar y estructurar cada instrucción.
-Encargado de comprimir el vídeo y esperar al procesado del vídeo.
-
-Este proyecto en el fichero credentials.py contiene:
 aws_access_key_id = '' <br>
 aws_secret_access_key = ''<br>
 aws_session_token = ''<br>
@@ -36,4 +25,14 @@ collection_id = ''<br>
 
 **video_folder** define la ruta donde se almacena el video comprimido de forma temporal.<br>
 **video_URL** se encarga de definir la ruta en la que se encuentra el video a procesar.
+
+# detectFace.py
+Contiene todas las funciones de forma independiente para el procesado del video una vez se obtenga la respuesta.
+Esta funciones se dividen en 2 bloques principales:
+- Trabajo con los datos del video procesado
+- Uso de procesoso de AWS para identificación de personas, mover archivo de ruta en el bucket, crear colecciones, comenzar con el proceso del vídeo...
+
+# index.py
+Fichero principal del programa encargado de llamar y estructurar cada instrucción.
+Encargado de comprimir el vídeo y esperar al procesado del vídeo.
 
