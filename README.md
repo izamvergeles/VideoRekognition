@@ -25,14 +25,14 @@ Fichero principal del programa encargado de llamar y estructurar cada instrucci�
 Encargado de comprimir el vídeo y esperar al procesado del vídeo.
 
 Este proyecto en el fichero credentials.py contiene:
-aws_access_key_id = ''
-aws_secret_access_key = ''
-aws_session_token = ''
-region_name = ''
-bucket_name = ''
-video_folder = './data/'
-video_URL = './data/vid1.mp4'
-collection_id = ''
+aws_access_key_id = '' <br>
+aws_secret_access_key = ''<br>
+aws_session_token = ''<br>
+region_name = ''<br>
+bucket_name = ''<br>
+video_folder = './data/'<br>
+video_URL = './data/vid1.mp4'<br>
+collection_id = ''<br>
 
 **video_folder** define la ruta donde se almacena el video comprimido de forma temporal.
 **video_URL** se encarga de definir la ruta en la que se encuentra el video a procesar.
