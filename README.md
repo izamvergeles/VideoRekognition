@@ -36,3 +36,10 @@ Esta funciones se dividen en 2 bloques principales:
 Fichero principal del programa encargado de llamar y estructurar cada instrucción.
 Encargado de comprimir el vídeo y esperar al procesado del vídeo.
 
+## Descripción extendida
+Este proyecto comienza con el analisis de imágenes que ofrece AWS con detectFaces, tras observar y estudiar detenidamente que parámetros y datos ofrecía se llego a la solución de crear una herramienta que permita detectar cuando una persona se encuentra mirando a cámara, siendo este gesto un claro indicio para sospechar del mismo. Una vez con la idea, el proyecto tenía por donde empezar, grabar o encontrar un videos para obtener información. Tras una busqueda en internet se llego a la conclusión de que era mejor grabar diferentes videos y procesarlos usando video Rekognition de AWS. Una vez con esos datos se detecta que en video no se aporta informaciónd de los ojos de las personas detectadas por lo que todo el proyecto no servía para nada. También habia un gran problema con el tiempo de cada detección puesto que se hacia cada muchos segundos perdiendo muchos frames importante.
+
+Investigando en AWS y sus herramientas para procesar videos se descubrió Person Traking, funcionaba prácticamente igual, pero daba mucha mas información por vídeo puesto que analizaba mas frames. Con esta herramienta y un estudio del JSON proporciando se taodavía habia futuro, se podía detectar usando la posición de la cara, no siendo igual de fiable pero dentro de unos margenes es aceptable. Con las variables importantes y las herramientas importantes se trabaja para obtener la mayor precisión posible. 
+
+Todo este trabajo ha sido acompañado de otras funciones como la compresión del video para disminuir el tiempo de subida y preocesado, almacenamiento de detecciones y comparación de cara detectadas para definir reincidentes en un mismo vídeo. La idea principal era crear una base de datos personalizada y local pero el bucket de Amazon es necesario para el procesado de vídeo por lo que no tenía mucho sentido almacenar en diferentes luegares los mismos elementos.
+
