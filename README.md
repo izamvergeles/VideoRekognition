@@ -2,7 +2,7 @@
 Proyecto basado en AWS rekognition para la detección de personas mirando a cámara en un vídeo.
 
 Se divide en 4 ficheros:
-- **conection.py**
+- **[conection.py](./conection.py)**
 - **credentials.py**
 - **detectFace.py**
 - **index.py**
