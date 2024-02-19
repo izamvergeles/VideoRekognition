@@ -46,6 +46,6 @@ Investigando en AWS y sus herramientas para procesar videos se descubrió Person
 Todo este trabajo ha sido acompañado de otras funciones como la compresión del video para disminuir el tiempo de subida y preocesado, almacenamiento de detecciones y comparación de cara detectadas para definir reincidentes en un mismo vídeo. La idea principal era crear una base de datos personalizada y local pero el bucket de Amazon es necesario para el procesado de vídeo por lo que no tenía mucho sentido almacenar en diferentes luegares los mismos elementos.
 
 ## Documentación
-[Person Tracking](https://docs.aws.amazon.com/es_es/rekognition/latest/APIReference/API_GetPersonTracking.html)
-[Search Face by Images](https://docs.aws.amazon.com/es_es/rekognition/latest/dg/search-face-with-image-procedure.html)
-[Collections](https://docs.aws.amazon.com/es_es/rekognition/latest/dg/create-collection-procedure.html)
+- [Person Tracking](https://docs.aws.amazon.com/es_es/rekognition/latest/APIReference/API_GetPersonTracking.html)
+- [Search Face by Images](https://docs.aws.amazon.com/es_es/rekognition/latest/dg/search-face-with-image-procedure.html)
+- [Collections](https://docs.aws.amazon.com/es_es/rekognition/latest/dg/create-collection-procedure.html)
