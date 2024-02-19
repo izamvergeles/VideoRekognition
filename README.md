@@ -1,5 +1,5 @@
 # Video Rekognition
-Proyecto basado en AWS rekognition para la detección de personas mirando a cámara en un vídeo.
+Proyecto basado en AWS Rekognition para la detección de personas mirando a cámara en un vídeo.
 
 Se divide en 4 ficheros:
 - **[conection.py](./conection.py)**
