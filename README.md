@@ -3,9 +3,9 @@ Proyecto basado en AWS rekognition para la detección de personas mirando a cám
 
 Se divide en 4 ficheros:
 - **[conection.py](./conection.py)**
-- **credentials.py**
-- **detectFace.py**
-- **index.py**
+- **[credentials.py](./credentials.py)**
+- **[detectFace.py](./detectFace.py)**
+- **[index.py](./index.py)**
 
 ## conection.py
 Fichero encargado de procesar la conexión con AWS.
