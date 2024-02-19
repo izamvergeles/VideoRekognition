@@ -1,4 +1,4 @@
-# Video Rekognition <i class="fas fa-camera"></i>
+# Video Rekognition
 Proyecto basado en AWS Rekognition para la detección de personas mirando a cámara en un vídeo.
 
 Se divide en 4 ficheros:
